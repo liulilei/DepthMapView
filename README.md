@@ -6,7 +6,7 @@ android深度图 交易深度 DepthMapView
 
 如下效果图：
 
-![image](https://upload-images.jianshu.io/upload_images/2159494-931afa3769a11abf.gif)
+![image](https://github.com/liulilei/DepthMapView/blob/master/1563953796571899.gif)
 
 
 - 买卖盘价格，数量居中分布显示，提供多种参数设置。
