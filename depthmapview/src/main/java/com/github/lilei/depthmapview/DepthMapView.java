@@ -106,7 +106,7 @@ public class DepthMapView extends View {
     private String coin = "";
     private int pricisionCoin = 0;
     private int pricisionPrice = 0;
-    private int priTradePost = 2;
+    private int priTradePost = 2;//显示委托价精度
 
     public DepthMapView(Context context) {
         this(context, null);
