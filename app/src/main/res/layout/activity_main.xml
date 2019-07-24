@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据2"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据3"
+            android:textSize="30sp" />
+
+        <com.github.lilei.depthmapview.DepthMapView
+            android:id="@+id/depthMapView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:visibility="visible"
+            app:background_color="@android:color/transparent"
+            app:buy_line_color="#00BE66"
+            app:buy_path_color="#00BE66"
+            app:circle_radius="8dp"
+            app:dot_radius="4dp"
+            app:line_count="4"
+            app:line_width="0.5dp"
+            app:selector_background_color="#252B3E"
+            app:selector_text_color="@android:color/white"
+            app:selector_text_size="10sp"
+            app:sell_line_color="#EA573C"
+            app:sell_path_color="#EA573C"
+            app:text_color="#9B9B9B"
+            app:text_size="10sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据4"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据6"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据7"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据8"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="测试数据9"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
